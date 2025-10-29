@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BetterTools Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;">BetterTools.js Documentation</h1>
+    </header>
+    <main>
+        <label for="function-select">Select a function:</label>
+        <select id="function-select">
+            <option value="">--Please choose a function--</option>
+        </select>
+        <div class="text">
+            <h2>Setup</h2>
+            <p>First, clone the repository or download the <code>BetterTools</code> folder:</p>
+            <pre><code>git clone https://github.com/GamerXR-637/BetterTools-js.git</code><button class="copy-btn">Copy</button></pre>
+
+            <p>Second, in your main file, require the library:</p>
+            <pre><code>// To use all functions under a namespace
+const BetterTools = require("./path/to/BetterTools");
+
+// Or, to import specific functions
+const { sleep, truncate } = require("./path/to/BetterTools");</code><button class="copy-btn">Copy</button></pre>
+
+            <p>If you use the first option, call functions like this:</p>
+            <pre><code>BetterTools.sleep(2);</code></pre>
+
+            <p>If you use the second option, you can call them directly:</p>
+            <pre><code>sleep(2);</code></pre>
+        </div>
+        <div id="details-container"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+
+.text {
+    border-top: 1px solid #e9ecef;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.text h2 {
+    color: #007bff;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+}
+
+.text pre {
+    background-color: #c7cace;
+    padding: 1rem;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    position: relative; /* Needed for positioning the button */
+}
+
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.copy-btn:hover {
+    background-color: #e9ecef;
+}
+
+body {
+    background: linear-gradient(80deg,#007bff,#2875c7,#ced4da);
+    font-family: 'Times New Roman', Times, serif
+}
